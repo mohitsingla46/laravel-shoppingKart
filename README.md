@@ -28,9 +28,15 @@ Create database tables using migration command.
 php artisan migrate
 ```
 
+Seed the default admin user with following command.
+
+```
+php artisan db:seed
+```
+
 ### Launch and discover
 
-You are now ready to launch the NestJS application using the command below.
+You are now ready to launch the Laravel application using the command below.
 
 ```
 php artisan serve
